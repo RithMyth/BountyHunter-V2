@@ -1,22 +1,36 @@
---- Python Rückstände ---
+# --- Python Specific ---
 __pycache__/
 *.py[cod]
 *$py.class
-.venv/
+*.so
+.Python
 env/
 venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
 
-# --- Deine Bot-Ergebnisse ---
+# --- BountyHunter Data (Keep it private!) ---
+auth.log
+wortliste_bounty.txt
+
+# --- Reports ---
+# Verhindert, dass gefundene Geheimnisse hochgeladen werden
+report_bountyhunter.html
 report_v6.html
-report_fixed.html
-ergebnisse.txt
-*.log
+*.html
 
-# --- Lokale Konfiguration ---
-# Falls du mal eine Datei mit echten API-Keys anlegst
-.env
-secret.json
-
-# --- Betriebssystem-Müll ---
+# --- OS Specific ---
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+
+# --- IDE Config ---
+.vscode/
+.idea/
+*.swp
+*.swo
