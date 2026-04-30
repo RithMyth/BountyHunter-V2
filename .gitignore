@@ -1,0 +1,22 @@
+--- Python Rückstände ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# --- Deine Bot-Ergebnisse ---
+report_v6.html
+report_fixed.html
+ergebnisse.txt
+*.log
+
+# --- Lokale Konfiguration ---
+# Falls du mal eine Datei mit echten API-Keys anlegst
+.env
+secret.json
+
+# --- Betriebssystem-Müll ---
+.DS_Store
+Thumbs.db
