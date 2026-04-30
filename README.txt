@@ -1,4 +1,4 @@
-# BountyHunter Ultimate V6.0 🎯
+# BountyHunter Ultimate V2.0 🎯
 
 BountyHunter ist ein spezialisiertes Python-Tool für Sicherheitsanalysen und Penetration Testing. Es wurde entwickelt, um Webanwendungen auf versteckte Geheimnisse in JavaScript-Dateien, Fehlkonfigurationen und potenzielle Login-Schwachstellen zu prüfen.
 
